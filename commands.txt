@@ -1,4 +1,6 @@
 docker build . -t api
+
+docker rm -f api_container
 docker run -it -p 8989:8000 --name api_container api
 [LOGGING] Container ip: listening at all ip (0.0.0.0)
 [LOGGING] Host port: 8989, Container port: 8000
