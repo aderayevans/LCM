@@ -8,3 +8,11 @@ docker run -it -p 8989:8000 --name api_container api
 docker exec -it api_container /bin/bash
 
 http://192.168.186.160:8989/
+
+
+=========================
+git remote add gitlab https://gitlab.tma.com.vn/api-destroyer/LCM.git
+git fetch --all
+git remote show
+git push origin
+git push gitlab
