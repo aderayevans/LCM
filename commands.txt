@@ -7,6 +7,11 @@ docker run -it -p 8989:8000 --name api_container api
 
 docker exec -it api_container /bin/bash
 
+python manage.py test
+
+python manage.py makemigrations
+python manage.py migrate
+
 http://192.168.186.160:8989/
 
 
