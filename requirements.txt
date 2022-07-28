@@ -1,0 +1,9 @@
+Django>=4.0.5
+django-cors-headers
+djangorestframework
+django-environ
+psycopg2-binary>=2.9.1
+gunicorn==20.1.0
+
+
+# mysqlclient>=2.1.1

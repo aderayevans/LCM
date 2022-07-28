@@ -1,2 +1,3 @@
-# LCM
-League of Legend Champions Management
+[Document]  Django + Docker
+[Document]  + local PostgreSQL
+[Document]  + django restframework
